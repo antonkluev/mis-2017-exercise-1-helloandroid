@@ -1,7 +1,7 @@
 
 
 
-# <div align="center">mis-2017-exercise-1-helloandroid</div>
+# mis-2017-exercise-1-helloandroid
 
 #### Students:
 - Anton Kliuyeu *(author)*

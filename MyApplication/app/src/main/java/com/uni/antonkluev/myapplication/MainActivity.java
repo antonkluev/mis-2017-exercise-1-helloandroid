@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
                 // https://developer.android.com/reference/java/io/ByteArrayOutputStream.html
                 byte[] bytearray = response.content.toByteArray();
                 Bitmap bmp = BitmapFactory.decodeByteArray(bytearray, 0, bytearray.length);
+                // https://developer.android.com/reference/android/widget/ImageView.html
                 imageView.setImageBitmap(Bitmap.createScaledBitmap(bmp, imageView.getWidth(), imageView.getHeight(), false));
             } else {
                 Toast.makeText(
